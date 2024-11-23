@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    height: 180vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/421755293_893471286118032_7345685671177837017_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEF0vr7kmK626OJWQLrk2dcvtxCU2M1RbS-3EJTYzVFtIpLFJxxnhjNzWMpbLtYBS9bxAbTYyeSR-j7Zm5AUIzo&_nc_ohc=tvjNlmTXsm8Q7kNvgEO97EP&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=AhRl_lviJX51Qkd8f5D7mCI&oh=00_AYC6lmsiJr3GoLCYbSSXAt7Yl-LbRyZrAFnMt4bfJFSs_w&oe=67478DD5');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #728156;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  
+  h1 {
+    color: #2E4156;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    margin-top: 10px;
+    color: #2E4156;
+    text-align: left;
+  }
+  
+  ol {
+    margin: 15px 0;
+    text-align: left;
+    padding: 15px;
+    background-color: rgba(230, 245, 255, 0.8);
+    border-radius: 8px;
+    border: 1px solid #1A2D42;
+  }
+  
+  form {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #2c3e50;
+  }
+  
+  input,
+  select,
+  textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #c8d6e5;
+    border-radius: 5px;
+    background-color: #f7f9fc;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1A2D42;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #2E4156;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #C0C8CA;
+    text-align: left;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #d1e7fd;
+  }
+  
+  th {
+    background-color: #1A2D42;
+    color: white;
+  }
+  
+  td {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  input[type="checkbox"] {
+    margin-left: 0px;
+    margin-right: 500px;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #2c3e50;
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    padding-left: 5px;
+  }
+  

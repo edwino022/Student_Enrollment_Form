@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Enrollment Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student Enrollment Form</h1>
+    <h3>Instructions:</h3>
+    <ol>
+      <li>Fill in the form fields.</li>
+      <li>Check your interests.</li>
+      <li>Click "Enroll Now" to submit.</li>
+    </ol>
+    <form>
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+      <p>Sex:</p>
+      <input type="radio" id="male" name="sex" value="Male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="sex" value="Female" required>
+      <label for="female">Female</label>
+      
+      <p>Course Options:</p>
+      <select id="course" name="course" required>
+        <option value="BSIT">BSIT</option>
+        <option value="BSSW">BSSW</option>
+        <option value="BSPA">BSPA</option>
+        <option value="BSA">BSA</option>
+        <option value="BSAIS">BSAIS</option>
+        <option value="BSE">BSE</option>
+        <option value="BTVTED">BTVTED</option>
+        <option value="ABELS">ABELS</option>
+        <option value="DHRS">DHRS</option>
+      </select>
+
+      <p>Interests:</p>
+      <input type="checkbox" id="webDevelopment" name="interests" value="Web Development">
+      <label for="webDevelopment">Web Development</label>
+      <input type="checkbox" id="dataScience" name="interests" value="Data Science">
+      <label for="dataScience">Data Science</label>
+      <input type="checkbox" id="networking" name="interests" value="Networking">
+      <label for="networking">Networking</label>
+      <input type="checkbox" id="ecommerce" name="interests" value="E Commerce">
+      <label for="ecommerce">E Commerce</label>
+      <input type="checkbox" id="liberal arts" name="interests" value="Liberal Arts">
+      <label for="liberal arts">Liberal Arts</label>
+
+      <button type="submit">Enroll Now</button>
+    </form>
+
+    <h1>Enrolled Students:</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Sex</th>
+          <th>Course</th>
+          <th>Interests</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Jose</td>
+          <td>jose1234@example.com</td>
+          <td>20</td>
+          <td>Male</td>
+          <td>BSIT</td>
+          <td>Web Development</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Rose</td>
+          <td>rose2345@example.com</td>
+          <td>22</td>
+          <td>Female</td>
+          <td>BSSW</td>
+          <td>Networking</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Maria</td>
+          <td>maria85@example.com</td>
+          <td>22</td>
+          <td>Female</td>
+          <td>BSPA</td>
+          <td>Networking</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Angelo</td>
+          <td>angelo35@example.com</td>
+          <td>22</td>
+          <td>Male</td>
+          <td>ABELS</td>
+          <td>Liberal Arts</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Mario</td>
+          <td>mario5@example.com</td>
+          <td>22</td>
+          <td>Male</td>
+          <td>BSE</td>
+          <td>E Commerce</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
